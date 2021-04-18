@@ -4,5 +4,6 @@ dotenv.config();
 export const {
     PORT,
     DEBUG_MODE,
-    JWT_SECRET
+    JWT_SECRET,
+    REFRESH_SECRET
 } = process.env;
