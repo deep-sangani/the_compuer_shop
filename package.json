@@ -1,0 +1,26 @@
+{
+  "name": "the_computer_shop_backend",
+  "version": "1.0.0",
+  "description": "it is a backend of computer selling website",
+  "main": "server.js",
+  "author": "deep sangani",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon -r esm server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.6.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "sequelize-cli": "^6.2.0"
+  }
+}
